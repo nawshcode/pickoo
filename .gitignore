@@ -1,0 +1,16 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Packaged extension builds
+*.zip
+*.crx
+*.pem
+
+# Logs
+*.log
+npm-debug.log*

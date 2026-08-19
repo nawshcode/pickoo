@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icons/icon32.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" 
+    rel="stylesheet">
+    <title>Pickoo</title>
+    <meta name="description" content="A colour picking chrome extension">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="containerPanel">
+        <div class="header">🎨 Pickoo </div>
+        <div class="tabs">
+            <div class="tab active" data-tab="1">🏳️‍🌈 Spectrum</div>
+            <div class="tab" data-tab="2">✏️ Pick</div>
+            <div class="tab" data-tab="3">🗃️ Saved</div>
+        </div>
+        <div class="content active" id="tab1">
+            <div class="color-area" id="color-area">
+                <div class="dot" id="dot"></div>
+            </div>
+            <div class="hue" id="hue"></div>
+            <div class="hexAndActions">
+                <div class="code-box" id="hexBox" style="color:#000000; background-color: #ffffff;">#ffffff</div>
+                <i class="fa-regular fa-copy" id="copybtn1"></i>
+            </div>
+            <button class="btn" id="saveBtn">Save</button>
+        </div>
+        <div class="content" id="tab2">
+            <h3 class="pick-color-heading">Pick colour from website</h3>
+            <button class="btn" id="pickBtn">🖌️ Pick colour</button>
+            <div class="hexAndActions">
+                <div class="code-box" id="eyeCode">No colour selected</div>
+                <i class="fa-regular fa-copy" id="copybtn2"></i>
+            </div>
+            <button class="btn hidden" id="saveBtn2">Save</button>
+        </div>
+        <div class="content" id="tab3">
+            <div class="tab3header">
+                <h3 class="color-grid-h3">Saved Colours</h3>
+                <p id="deletebtn">Clear All</p>
+            </div>
+            <div class="color-grid" id="saved-colors"></div>
+        </div>
+    </div>
+    <script src="extension.js"></script>
+</body>
+</html>
