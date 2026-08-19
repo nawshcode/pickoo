@@ -23,13 +23,16 @@ I built Pickoo as a deliberate JavaScript refresher — DOM manipulation, event 
 
 ## Demo
 
-[▶️ Watch Pickoo Demo](video.mp4)
+https://github.com/user-attachments/assets/6bb12cc1-9321-412e-bbbb-7e9aec15740e
+
 
 ## Screenshots
 
-<img src="docs/landingSpectrum.png" alt="Popup" width="300">
-<img src="docs/picktab.png" alt="Pick Colour" width="300">
-<img src="docs/savedColours.png" alt="Saved Colours Gallery" width="300">
+<div>
+  <img src="docs/landingSpectrum.png" alt="Popup" width="32%">
+  <img src="docs/picktab.png" alt="Pick Colour" width="32%">
+  <img src="docs/savedColours.png" alt="Saved Colours Gallery" width="32%">
+</div>
 
 
 ## Tech stack
@@ -42,6 +45,16 @@ I built Pickoo as a deliberate JavaScript refresher — DOM manipulation, event 
 | Platform   | Chrome Extension, Manifest V3                                                     |
 
 ## Installation (load unpacked)
+
+
+
+
+
+
+
+
+
+
 
 1. Clone the repo:
    ```bash
