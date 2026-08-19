@@ -20,9 +20,16 @@ I built Pickoo as a deliberate JavaScript refresher — DOM manipulation, event 
 - **One-click copy** — copy any HEX code to the clipboard instantly
 - Fully offline and dependency-free (Google Fonts / Font Awesome are loaded from CDN for styling only)
 
+
+## Demo
+
+[▶️ Watch Pickoo Demo](video.mp4)
+
 ## Screenshots
 
-![▶️ Watch Pickoo Demo](video.mp4), ![Popup](docs/landingSpectrum.png), ![Pick Colour](docs/picktab.png), ![Saved Colours Gallery](docs/savedColours.png)
+<img src="docs/landingSpectrum.png" alt="Popup" width="300">
+<img src="docs/picktab.png" alt="Pick Colour" width="300">
+<img src="docs/savedColours.png" alt="Saved Colours Gallery" width="300">
 
 
 ## Tech stack
