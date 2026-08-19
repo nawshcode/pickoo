@@ -22,7 +22,7 @@ I built Pickoo as a deliberate JavaScript refresher — DOM manipulation, event 
 
 ## Screenshots
 
-`docs/video.mp4`,`docs/landingSpectrum.png`,`docs/picktab.png`,`docs/savedColours.png`,
+![▶️ Watch Pickoo Demo](video.mp4), ![Popup](docs/landingSpectrum.png), ![Pick Colour](docs/picktab.png), ![Saved Colours Gallery](docs/savedColours.png)
 
 
 ## Tech stack
