@@ -22,16 +22,17 @@ I built Pickoo as a deliberate JavaScript refresher — DOM manipulation, event 
 
 ## Screenshots
 
-> _Add a few screenshots or a short GIF of the Spectrum, Pick, and Saved tabs here before publishing — e.g. `docs/spectrum.png`, `docs/eyedropper.png`, `docs/saved.png`._
+`docs/video.mp4`,`docs/landingSpectrum.png`,`docs/picktab.png`,`docs/savedColours.png`,
+
 
 ## Tech stack
 
-| Layer      | Details                                                             |
-|------------|-----------------------------------------------------------------------|
-| Structure  | HTML5                                                                  |
-| Styling    | CSS3 (custom flex/grid layouts, no framework)                         |
-| Logic      | Vanilla JavaScript (ES6+), DOM APIs, `chrome.storage`, `EyeDropper`, `Clipboard` |
-| Platform   | Chrome Extension, Manifest V3                                         |
+| Layer      | Details                                                                           |
+|------------|-----------------------------------------------------------------------------------|
+| Structure  | HTML5                                                                             |
+| Styling    | CSS3 (custom flex/grid layouts, no framework)                                     |
+| Logic      | Vanilla JavaScript (ES6+), DOM APIs, `chrome.storage`, `EyeDropper`, `Clipboard`  |
+| Platform   | Chrome Extension, Manifest V3                                                     |
 
 ## Installation (load unpacked)
 
