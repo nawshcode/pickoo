@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Pickoo",
   "version": "1.0.0",
-  "description": "A sleek colour picker to fetch HEX codes, an eyedropper to pick colours from the screen and a gallery for saved colours.",
+  "description": "Pickoo is a lightweight Chrome extension with an HSL spectrum picker, screen eyedropper, HEX conversion, one-click clipboard copying, and a persistent saved-colour palette.",
   "action": {
     "default_popup": "extension.html",
     "default_title": "Pickoo",
